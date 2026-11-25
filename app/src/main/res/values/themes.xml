@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <style name="Theme.HuellitasApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#276759</item>
+        <item name="colorPrimaryDark">#19483E</item>
+        <item name="colorSecondary">#276759</item>
+    </style>
+</resources>

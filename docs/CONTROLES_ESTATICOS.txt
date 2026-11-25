@@ -1,0 +1,35 @@
+- 8 XML analizados correctamente: Manifest, 5 layouts y 2 recursos de valores.
+- Las 6 clases Java solicitadas están presentes, con paquete y nombre coherentes.
+- Paquete y clase: AgregarActivity
+- AgregarActivity: todos los R.id existen en su layout.
+- Paquete y clase: EditarActivity
+- EditarActivity: todos los R.id existen en su layout.
+- Paquete y clase: ListarActivity
+- ListarActivity: todos los R.id existen en su layout.
+- Paquete y clase: Mascota
+- Paquete y clase: MascotaAdapter
+- MascotaAdapter: todos los R.id existen en su layout.
+- Paquete y clase: VerActivity
+- VerActivity: todos los R.id existen en su layout.
+- activity_agregar.xml: IDs sin duplicados dentro del layout.
+- activity_editar.xml: IDs sin duplicados dentro del layout.
+- activity_listar.xml: IDs sin duplicados dentro del layout.
+- activity_ver.xml: IDs sin duplicados dentro del layout.
+- item_mascota.xml: IDs sin duplicados dentro del layout.
+- Las 4 Activities están declaradas en AndroidManifest.xml.
+- Todas las operaciones usan exclusivamente la colección mascotas.
+- Los Intents transmiten ID con una clave común; no hay Serializable.
+- Listado con addSnapshotListener y liberación del listener en onStop.
+- Alta mediante add(mascota).
+- Edición mediante update(), sin set().
+- Eliminación por ID y AlertDialog presentes.
+- Modelo con seis propiedades y getId excluido.
+- update incluye los seis nombres de campos exactos.
+- Sin google-services.json ajeno o ficticio.
+- JAR del Gradle Wrapper íntegro y con su clase principal.
+- Archivo de proyecto presente: gradlew
+- Archivo de proyecto presente: gradlew.bat
+- Archivo de proyecto presente: gradle/wrapper/gradle-wrapper.properties
+- Archivo de proyecto presente: settings.gradle
+- Archivo de proyecto presente: build.gradle
+- Archivo de proyecto presente: app/build.gradle
